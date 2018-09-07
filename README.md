@@ -1,11 +1,11 @@
-#JQuery Plugin: Yet Another TODO List 
+# JQuery Plugin: Yet Another TODO List 
 [![Build Status](https://travis-ci.org/msalsas/yet-another-todo-list.svg?branch=master)](https://travis-ci.org/msalsas/yet-another-todo-list)
  
-##Install
+## Install
  
 `npm install yet-another-todo-list --save`
  
-##Usage
+## Usage
 
 With default options:
 
@@ -22,10 +22,10 @@ With options:
     });
 
  
-##Demo
+## Demo
 
 There is a demo at [https://github.com/msalsas/yet-another-todo-list/blob/master/dist/index.html]().
 
-##Development
+## Development
 
 `npm run build` to deploy
