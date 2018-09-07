@@ -1,6 +1,7 @@
 # JQuery Plugin: Yet Another TODO List 
 [![Build Status](https://travis-ci.org/msalsas/yet-another-todo-list.svg?branch=master)](https://travis-ci.org/msalsas/yet-another-todo-list)
- 
+[![npm version](https://badge.fury.io/js/yet-another-todo-list.svg)](https://badge.fury.io/js/yet-another-todo-list)
+
 ## Install
  
 `npm install yet-another-todo-list --save`
