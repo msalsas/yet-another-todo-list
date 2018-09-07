@@ -1,8 +1,11 @@
 {
   "name": "yet-another-todo-list",
   "version": "1.0.0",
-  "description": "TODO list",
-  "main": "index.js",
+  "description": "JQuery Plugin: TODO list",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msalsas/yet-another-todo-list.git"
+  },
   "scripts": {
     "build": "webpack"
   },
