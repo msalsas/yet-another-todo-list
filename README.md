@@ -25,7 +25,7 @@ With options:
  
 ## Demo
 
-There is a demo at [https://github.com/msalsas/yet-another-todo-list/blob/master/dist/index.html]().
+There is a demo at [https://github.com/msalsas/yet-another-todo-list/blob/master/dist/index.html](https://github.com/msalsas/yet-another-todo-list/blob/master/dist/index.html).
 
 ## Development
 
