@@ -16,11 +16,11 @@ import './yet-another-todo-list.scss';
 
         // Set default options
         options = $.extend({
-            defaultList                : [],
-            titleText                  : 'TODO list',
-            buttonAddText              : '+ Add',
-            buttonDeleteText           : '- Delete',
-            buttonUndoText             : 'Undo',
+            defaultList     : [],
+            titleText       : 'TODO list',
+            buttonAddText   : '+ Add',
+            buttonDeleteText: '- Delete',
+            buttonUndoText  : 'Undo',
         }, options);
 
         this.each(function() {
