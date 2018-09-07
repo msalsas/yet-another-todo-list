@@ -1,0 +1,101 @@
+.yet-another-todo-list-add-button, .yet-another-todo-list-delete-button, .yet-another-todo-list-undo-button {
+  border: none;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  color: #ede9ce;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  text-align: center; }
+  .yet-another-todo-list-add-button:focus, .yet-another-todo-list-delete-button:focus, .yet-another-todo-list-undo-button:focus {
+    outline-width: 0; }
+  .yet-another-todo-list-add-button:active, .yet-another-todo-list-delete-button:active, .yet-another-todo-list-undo-button:active {
+    opacity: 0.8; }
+
+.yet-another-todo-list-add-button {
+  background: #64706c; }
+
+.yet-another-todo-list-delete-button {
+  background: #935347; }
+
+.yet-another-todo-list-undo-button {
+  background: #935347; }
+
+.yet-another-todo-list-prompt {
+  background: #64706c;
+  height: 100vh;
+  opacity: 0.9;
+  padding-top: 10%;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  .yet-another-todo-list-prompt input {
+    border: none;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    padding: 0 5%;
+    width: 40%; }
+    .yet-another-todo-list-prompt input:focus {
+      outline-width: 0; }
+  .yet-another-todo-list-prompt button {
+    background: #ede9ce;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #64706c;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    padding: 0 10px;
+    width: 40px; }
+    .yet-another-todo-list-prompt button:focus {
+      outline-width: 0; }
+
+.yet-another-todo-list-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .yet-another-todo-list-ul li {
+    background: #ede9ce;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    color: #64706c;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    max-width: 80%;
+    padding: 0 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex: 0 1 auto;
+    flex-shrink: 1;
+    min-width: 0; }
+    .yet-another-todo-list-ul li.selected {
+      background: #64706c;
+      color: #ede9ce; }
+

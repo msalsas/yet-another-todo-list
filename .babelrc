@@ -1,0 +1,11 @@
+{
+  "env": {
+    "test": {
+      "presets": ["env", "stage-0"],
+      "only": [
+        "./src/*.js",
+        "node_modules/jest-runtime"
+      ]
+    }
+  }
+}

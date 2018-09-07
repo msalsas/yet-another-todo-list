@@ -1,0 +1,132 @@
+// Colors:
+$white: #ede9ce;
+$green: #64706c;
+$red: #935347;
+// End Colors
+
+// Buttons:
+.yet-another-todo-list-add-button, .yet-another-todo-list-delete-button, .yet-another-todo-list-undo-button {
+  border: none;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  text-align: center;
+
+  &:focus {
+    outline-width: 0;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}
+.yet-another-todo-list-add-button {
+  background: $green;
+}
+.yet-another-todo-list-delete-button {
+  background: $red;
+}
+.yet-another-todo-list-undo-button {
+  background: $red;
+}
+// End Buttons
+
+// Prompt
+.yet-another-todo-list-prompt {
+  background: $green;
+  height: 100vh;
+  opacity: 0.9;
+  padding-top: 10%;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  input {
+    border: none;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    padding: 0 5%;
+    width: 40%;
+
+    &:focus {
+      outline-width: 0;
+    }
+  }
+  button {
+    background: $white;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: $green;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    padding: 0 10px;
+    width: 40px;
+
+    &:focus {
+      outline-width: 0;
+    }
+  }
+}
+// End Prompt
+
+// List
+.yet-another-todo-list-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    background: $white;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    color: $green;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    max-width: 80%;
+    padding: 0 25px;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex: 0 1 auto;
+    flex-shrink: 1;
+    min-width: 0;
+
+
+    &.selected {
+      background: $green;
+      color: $white;
+    }
+  }
+}
+// End List
