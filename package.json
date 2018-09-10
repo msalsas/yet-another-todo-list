@@ -10,6 +10,7 @@
     "build": "webpack"
   },
   "keywords": [
+    "jquery-plugin",
     "TODO",
     "list"
   ],
